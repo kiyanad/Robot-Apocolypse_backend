@@ -1745,7 +1745,7 @@ Robot.create(name:"SYL-5", hear: true , see: false , arms: false,  speed: false,
 
 Robot.create(name:"SYL-6", hear: true , see: false , arms: false,  speed: true , wheels: false, jump: true , doors: false, stairs: false, talk: false ,  laser: true, heat: true, gas: false, robothead: "28")
 
-Robot.create(name:"", hear: true , see: false , arms: false,  speed: false, wheels: true , jump: true , doors: false, stairs: false, talk: false ,  laser: true, heat: true, gas: false, robothead: "29")
+Robot.create(name:"SYL-7", hear: true , see: false , arms: false,  speed: false, wheels: true , jump: true , doors: false, stairs: false, talk: false ,  laser: true, heat: true, gas: false, robothead: "29")
 
 Robot.create(name:"GLX-1", hear: true , see: false , arms: false,  speed: true , wheels: true , jump: true , doors: true , stairs: true , talk: false ,  laser: true, heat: true, gas: false, robothead: "30")
 
