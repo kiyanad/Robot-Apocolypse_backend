@@ -301,9 +301,9 @@ Choice.create(prompt:"You decide to slam the door to see if the robot will come.
 ########################Watch from closet#########################
 ######################Robot cant hear ######################
 #########################Gas################################
-Choice.create(prompt:"You decide to hide in the closet and peak out to see if anything happens but the robot doesnt come. Unfortunately you hear your sister scream then you begin to get really sleepy...", choiceA: "You died", choiceB: "You died", turn:10 , path:"left", route: "a", robotpath: "a" , from: "You decide to slam the door to see if the robot will come.")
+Choice.create(prompt:"You decide to hide in the closet and peak out to see if anything happens but the robot doesnt come. Unfortunately you hear your sister scream then you begin to get really sleepy...", choiceA: "Captured", choiceB: "Captured", turn:10 , path:"left", route: "a", robotpath: "a" , from: "You decide to slam the door to see if the robot will come.")
 ########################LASER###################################
-Choice.create(prompt:"You decide to hide in the closet and peak out to see if anything happens but the robot doesnt come. Unfortunately you hear your sister scream then you feel yourself get hit with a red beam", choiceA: "You died", choiceB: "You died", turn:10 , path:"left", route: "a", robotpath: "b" , from: "You decide to slam the door to see if the robot will come.")
+Choice.create(prompt:"You decide to hide in the closet and peak out to see if anything happens but the robot doesnt come. Unfortunately you hear your sister scream then you feel yourself get hit with a red beam", choiceA: "Captured", choiceB: "Captured", turn:10 , path:"left", route: "a", robotpath: "b" , from: "You decide to slam the door to see if the robot will come.")
 
 ########################robot can hear ########################
 Choice.create(prompt:"You decide to hide in the closet and peak out to see if anything happens. You see a bright light coming from under the kitchen door. ", choiceA: "open the door", choiceB: "stay in closet", turn:10 , path:"left", route: "a", robotpath: "c" , from: "You decide to slam the door to see if the robot will come.")
@@ -317,17 +317,17 @@ Choice.create(prompt:"You close the door to the closet when you hear the kitchen
 
 #########################If robot cant open doors #########################
 ############################Gas ###########################
-Choice.create(prompt:"You close the door to the closet and wait. After a while you find yourself getting very sleepy when...", choiceA: "You died", choiceB: "You died", turn:11 , path:"right", route: "a", robotpath: "b" , from: "You decide to hide in the closet and peak out to see if anything happens. You see a bright light coming from under the kitchen door. ")
+Choice.create(prompt:"You close the door to the closet and wait. After a while you find yourself getting very sleepy when...", choiceA: "Captured", choiceB: "Captured", turn:11 , path:"right", route: "a", robotpath: "b" , from: "You decide to hide in the closet and peak out to see if anything happens. You see a bright light coming from under the kitchen door. ")
 ############################Laser ###########################
-Choice.create(prompt:"You close the door to the closet and wait. After a while you get hit with this red beam when...", choiceA: "You died", choiceB: "You died", turn:11 , path:"right", route: "a", robotpath: "c" , from: "You decide to hide in the closet and peak out to see if anything happens. You see a bright light coming from under the kitchen door. ")
+Choice.create(prompt:"You close the door to the closet and wait. After a while you get hit with this red beam when...", choiceA: "Captured", choiceB: "Captured", turn:11 , path:"right", route: "a", robotpath: "c" , from: "You decide to hide in the closet and peak out to see if anything happens. You see a bright light coming from under the kitchen door. ")
 
 ######################Hide in kitchen ###########################
 ######################Robot cant hear ######################
 ######################Robot cant hear ######################
 #########################Gas################################
-Choice.create(prompt:"You decide to wait in the kitchen and peak out to see if anything happens but the robot doesnt come. Unfortunately you hear your sister scream then you begin to get really sleepy...", choiceA: "You died", choiceB: "You died", turn:10 , path:"right", route: "a", robotpath: "a" , from: "You decide to slam the door to see if the robot will come.")
+Choice.create(prompt:"You decide to wait in the kitchen and peak out to see if anything happens but the robot doesnt come. Unfortunately you hear your sister scream then you begin to get really sleepy...", choiceA: "Captured", choiceB: "Captured", turn:10 , path:"right", route: "a", robotpath: "a" , from: "You decide to slam the door to see if the robot will come.")
 ########################LASER###################################
-Choice.create(prompt:"You decide to wait in the kitchen and peak out to see if anything happens but the robot doesnt come. Unfortunately you hear your sister scream then you feel yourself get hit with a red beam", choiceA: "You died", choiceB: "You died", turn:10 , path:"right", route: "a", robotpath: "b" , from: "You decide to slam the door to see if the robot will come.")
+Choice.create(prompt:"You decide to wait in the kitchen and peak out to see if anything happens but the robot doesnt come. Unfortunately you hear your sister scream then you feel yourself get hit with a red beam", choiceA: "Captured", choiceB: "Captured", turn:10 , path:"right", route: "a", robotpath: "b" , from: "You decide to slam the door to see if the robot will come.")
 
 
 ########################robot can hear ########################
@@ -340,9 +340,9 @@ Choice.create(prompt:"Uh-oh the doorknob on the closet begins to turn when...", 
 
 #########################If robot cant open doors #########################
 ############################Gas ###########################
-Choice.create(prompt:"You wait. After a while you find yourself getting very sleepy when...", choiceA: "You died", choiceB: "You died", turn:12 , path:"left", route: "a", robotpath: "b" , from: "You decide to wait in the kitchen to see if anything happens. You see a bright light coming from under the door. ")
+Choice.create(prompt:"You wait. After a while you find yourself getting very sleepy when...", choiceA: "Captured", choiceB: "Captured", turn:12 , path:"left", route: "a", robotpath: "b" , from: "You decide to wait in the kitchen to see if anything happens. You see a bright light coming from under the door. ")
 ############################Laser ###########################
-Choice.create(prompt:"You wait. After a while you get hit with this red beam when...", choiceA: "You died", choiceB: "You died", turn:12 , path:"left", route: "a", robotpath: "c" , from: "You decide to wait in the kitchen to see if anything happens. You see a bright light coming from under the door. ")
+Choice.create(prompt:"You wait. After a while you get hit with this red beam when...", choiceA: "Captured", choiceB: "Captured", turn:12 , path:"left", route: "a", robotpath: "c" , from: "You decide to wait in the kitchen to see if anything happens. You see a bright light coming from under the door. ")
 
 
 
@@ -487,18 +487,18 @@ Choice.create(prompt:"The robots getting closer and you are not trying to stick 
 
 
 ######################GAS###################
-Choice.create(prompt:"You try to slowly exit but the robot begins to emit some sort of gas and you feel yourself getting very sleepy.", choiceA: "You died", choiceB: "You died", turn:13 , path:"right", route: "a", robotpath:"a",from: "You cant just let your sister die so you run out and grab her. Although the robot seems to be staring at your sister it doesnt make any moves but you notice a red light coming from its antenna")
+Choice.create(prompt:"You try to slowly exit but the robot begins to emit some sort of gas and you feel yourself getting very sleepy.", choiceA: "Captured", choiceB: "Captured", turn:13 , path:"right", route: "a", robotpath:"a",from: "You cant just let your sister die so you run out and grab her. Although the robot seems to be staring at your sister it doesnt make any moves but you notice a red light coming from its antenna")
 
 ###################LASER###########################
 
-Choice.create(prompt:"You try to slowly exit but the robot begins to shoot these red beams when..", choiceA: "You died", choiceB: "You died", turn:13 , path:"right", route: "a", robotpath:"b",from: "You cant just let your sister die so you run out and grab her. Although the robot seems to be staring at your sister it doesnt make any moves but you notice a red light coming from its antenna")
+Choice.create(prompt:"You try to slowly exit but the robot begins to shoot these red beams when..", choiceA: "Captured", choiceB: "Captured", turn:13 , path:"right", route: "a", robotpath:"b",from: "You cant just let your sister die so you run out and grab her. Although the robot seems to be staring at your sister it doesnt make any moves but you notice a red light coming from its antenna")
 
 
 Choice.create(prompt:"The robots getting closer and you are not trying to stick around and see what happens. You grab your sister and run back to the closet. You realize you guys cant stay there and you need to make a plan to get to the bunker.", choiceA: "bring sister", choiceB: "hide in closet", turn:13 , path:"left", route: "a", from: "You cant just let your sister die so you run out and grab her. Although the robot seems to be staring at your sister it doesnt make any moves but you notice a red light coming from its antenna")
 
 # Choice.create(prompt:"The robots getting closer and you are not trying to stick around and see what happens. You grab your sister and run back to the closet. You realize you guys cant stay there and you need to make a plan to get to the bunker.", choiceA: "bring sister ", choiceB: "hide her in closet", turn:13 , path:"right", route: "a", from: "You cant just let your sister die so you run out and grab her. Although the robot seems to be staring at your sister it doesnt make any moves but you notice a red light coming from its antenna")
 
-Choice.create(prompt:"You decide to bring your sister a long with you as the two of you try to sneak into the hallway. Unfortunately she faints from fear and you grab her phone. Crap its locked. Now you have to try and guess the passcode befoe youre ccaptured or your time runs out.", choiceA: "start", choiceB: "start", turn:14 , path:"left", route: "a", from: "The robots getting closer and you are not trying to stick around and see what happens. You grab your sister and run back to the closet. You realize you guys cant stay there and you need to make a plan to get to the bunker.")
+Choice.create(prompt:"You decide to bring your sister a long with you as the two of you try to sneak into the hallway. Unfortunately she faints from fear and you grab her phone. Crap its locked. Now you have to try and guess the passcode befoe youre captured or your time runs out.", choiceA: "start", choiceB: "start", turn:14 , path:"left", route: "a", from: "The robots getting closer and you are not trying to stick around and see what happens. You grab your sister and run back to the closet. You realize you guys cant stay there and you need to make a plan to get to the bunker.")
 
 #############END UNLESS INCLUDE  RIDDLE ############
 
@@ -584,9 +584,9 @@ Choice.create(prompt:"You open the door and the coast looks clear. You get to th
 
 #############IF ROGOT HAS LASER ################
 
-Choice.create(prompt:"You open the door and the coast looks clear. You get to the stairs when you see the robot just sitting there. Suddenly it starts to emit these red beams and...", choiceA: "You died", choiceB: "You died", turn:23 , path:"left", route: "a", robotpath:"c",  from: "You are thinking of a plan when your alarm goes off. Crap you quickly turn it off. Okay you have a plan...")
+Choice.create(prompt:"You open the door and the coast looks clear. You get to the stairs when you see the robot just sitting there. Suddenly it starts to emit these red beams and...", choiceA: "Captured", choiceB: "Captured", turn:23 , path:"left", route: "a", robotpath:"c",  from: "You are thinking of a plan when your alarm goes off. Crap you quickly turn it off. Okay you have a plan...")
 
-Choice.create(prompt:"You open the door and the coast looks clear. You get to the stairs when you see the robot just sitting there. Suddenly it starts to emit these red beams and...", choiceA: "You died", choiceB: "You died", turn:23 , path:"left", route: "a", robotpath:"c",  from: "You are thinking of a plan...")
+Choice.create(prompt:"You open the door and the coast looks clear. You get to the stairs when you see the robot just sitting there. Suddenly it starts to emit these red beams and...", choiceA: "Captured", choiceB: "Captured", turn:23 , path:"left", route: "a", robotpath:"c",  from: "You are thinking of a plan...")
 
 
 # GETPHONE CALL
@@ -604,10 +604,10 @@ Choice.create(prompt:"You open the door and the coast looks clear. You get to th
 
 # IF ROBOT CANT GO UP LASERS
 
-Choice.create(prompt:"Crap your plan didnt work and the robot is just standing at the edge of the stairs. It begins emitting these red beams when...", choiceA: "You died", choiceB: "You died", turn:15 , path:"right", route: "a", robotpath:"a", from: "You decide to hide your sister in the closet because you figure it would be best for you to handle this one alone. You ask for her phone and tell her you are going to try to call your phone to get the robot to go upstairs. She tells you she does not think thats a good idea and if you get her a picture she might be able to figure out which robot it is.")
+Choice.create(prompt:"Crap your plan didnt work and the robot is just standing at the edge of the stairs. It begins emitting these red beams when...", choiceA: "Captured", choiceB: "Captured", turn:15 , path:"right", route: "a", robotpath:"a", from: "You decide to hide your sister in the closet because you figure it would be best for you to handle this one alone. You ask for her phone and tell her you are going to try to call your phone to get the robot to go upstairs. She tells you she does not think thats a good idea and if you get her a picture she might be able to figure out which robot it is.")
 # IF ROBOT CANT GO UP gas
 
-Choice.create(prompt:"Crap your plan didnt work and the robot is just standing at the edge of the stairs. It begins emitting this gas when you feel yourself getting very sleepy...", choiceA: "You died", choiceB: "You died", turn:15 , path:"right", route: "a", robotpath:"b", from: "You decide to hide your sister in the closet because you figure it would be best for you to handle this one alone. You ask for her phone and tell her you are going to try to call your phone to get the robot to go upstairs. She tells you she does not think thats a good idea and if you get her a picture she might be able to figure out which robot it is.")
+Choice.create(prompt:"Crap your plan didnt work and the robot is just standing at the edge of the stairs. It begins emitting this gas when you feel yourself getting very sleepy...", choiceA: "Captured", choiceB: "Captured", turn:15 , path:"right", route: "a", robotpath:"b", from: "You decide to hide your sister in the closet because you figure it would be best for you to handle this one alone. You ask for her phone and tell her you are going to try to call your phone to get the robot to go upstairs. She tells you she does not think thats a good idea and if you get her a picture she might be able to figure out which robot it is.")
 
 # IF ROBOT CAN GO UP
 
@@ -626,12 +626,12 @@ Choice.create(prompt:"You go upstairs and see a color coming from your room with
 #########robot cant open doors##############
 ###########can see ###############
 ############laser ############
-Choice.create(prompt:"You go upstairs and the robot is sitting in the hall staring at you. It begins emitting these red beams when...", choiceA: "You died", choiceB: "You died", turn:17 , path:"right", route: "a", robotpath:"b", from: "You go back to the closet to tell your sister to stay put as you go see the robot. You tell her you didnt take a picture and decided to go with your plan of calling. You give her her phone back so you can call her when you grab yours.")
+Choice.create(prompt:"You go upstairs and the robot is sitting in the hall staring at you. It begins emitting these red beams when...", choiceA: "Captured", choiceB: "Captured", turn:17 , path:"right", route: "a", robotpath:"b", from: "You go back to the closet to tell your sister to stay put as you go see the robot. You tell her you didnt take a picture and decided to go with your plan of calling. You give her her phone back so you can call her when you grab yours.")
 
 #########robot cant open doors##############
 ###########cant see ###############
 ############laser ############
-Choice.create(prompt:"You go upstairs and the robot at the end ofthe hall coming toward you. The red light on its antenna intensifying. It begins emitting these red beams when...", choiceA: "You died", choiceB: "You died", turn:17 , path:"right", route: "a", robotpath:"c", from: "You go back to the closet to tell your sister to stay put as you go see the robot. You tell her you didnt take a picture and decided to go with your plan of calling. You give her her phone back so you can call her when you grab yours.")
+Choice.create(prompt:"You go upstairs and the robot at the end ofthe hall coming toward you. The red light on its antenna intensifying. It begins emitting these red beams when...", choiceA: "Captured", choiceB: "Captured", turn:17 , path:"right", route: "a", robotpath:"c", from: "You go back to the closet to tell your sister to stay put as you go see the robot. You tell her you didnt take a picture and decided to go with your plan of calling. You give her her phone back so you can call her when you grab yours.")
 
 
 
@@ -640,12 +640,12 @@ Choice.create(prompt:"You go upstairs and the robot at the end ofthe hall coming
 #########robot cant open doors##############
 ###########can see ###############
 ############gas ############
-Choice.create(prompt:"You go upstairs and the robot is sitting in the hall staring at you. It begins emitting this gas when you feel yourself getting very sleepy...", choiceA: "You died", choiceB: "You died", turn:17 , path:"right", route: "a", robotpath:"d", from: "You go back to the closet to tell your sister to stay put as you go see the robot. You tell her you didnt take a picture and decided to go with your plan of calling. You give her her phone back so you can call her when you grab yours.")
+Choice.create(prompt:"You go upstairs and the robot is sitting in the hall staring at you. It begins emitting this gas when you feel yourself getting very sleepy...", choiceA: "Captured", choiceB: "Captured", turn:17 , path:"right", route: "a", robotpath:"d", from: "You go back to the closet to tell your sister to stay put as you go see the robot. You tell her you didnt take a picture and decided to go with your plan of calling. You give her her phone back so you can call her when you grab yours.")
 
 #########robot cant open doors##############
 ###########cant see ###############
 ############gas ############
-Choice.create(prompt:"You go upstairs and the robot at the end of the hall coming toward you. The red light on its antenna intensifying. It begins emitting this gas when you feel yourself getting very sleepy...", choiceA: "You died", choiceB: "You died", turn:17 , path:"right", route: "e", robotpath:"b", from: "You go back to the closet to tell your sister to stay put as you go see the robot. You tell her you didnt take a picture and decided to go with your plan of calling. You give her her phone back so you can call her when you grab yours.")
+Choice.create(prompt:"You go upstairs and the robot at the end of the hall coming toward you. The red light on its antenna intensifying. It begins emitting this gas when you feel yourself getting very sleepy...", choiceA: "Captured", choiceB: "Captured", turn:17 , path:"right", route: "e", robotpath:"b", from: "You go back to the closet to tell your sister to stay put as you go see the robot. You tell her you didnt take a picture and decided to go with your plan of calling. You give her her phone back so you can call her when you grab yours.")
 
 
 
@@ -664,12 +664,12 @@ Choice.create(prompt:"You go upstairs and see a color coming from your room with
 #########robot cant open doors##############
 ###########can see ###############
 ############laser ############
-Choice.create(prompt:"You go upstairs and the robot is sitting in the hall staring at you. It begins emitting these red beams when...", choiceA: "You died", choiceB: "You died", turn:17 , path:"right", route: "a", robotpath:"b", from: "You decide to go get your sister because the two of you should definently stick together. You tell her that you decided to call your phone instead of take a picture. She was a bit upset but she laughed it off and said it was probably the better call I dont know much anyways.")
+Choice.create(prompt:"You go upstairs and the robot is sitting in the hall staring at you. It begins emitting these red beams when...", choiceA: "Captured", choiceB: "Captured", turn:17 , path:"right", route: "a", robotpath:"b", from: "You decide to go get your sister because the two of you should definently stick together. You tell her that you decided to call your phone instead of take a picture. She was a bit upset but she laughed it off and said it was probably the better call I dont know much anyways.")
 
 #########robot cant open doors##############
 ###########cant see ###############
 ############laser ############
-Choice.create(prompt:"You go upstairs and the robot at the end ofthe hall coming toward you. The red light on its antenna intensifying. It begins emitting these red beams when...", choiceA: "You died", choiceB: "You died", turn:17 , path:"right", route: "a", robotpath:"c", from: "You decide to go get your sister because the two of you should definently stick together. You tell her that you decided to call your phone instead of take a picture. She was a bit upset but she laughed it off and said it was probably the better call I dont know much anyways.")
+Choice.create(prompt:"You go upstairs and the robot at the end ofthe hall coming toward you. The red light on its antenna intensifying. It begins emitting these red beams when...", choiceA: "Captured", choiceB: "Captured", turn:17 , path:"right", route: "a", robotpath:"c", from: "You decide to go get your sister because the two of you should definently stick together. You tell her that you decided to call your phone instead of take a picture. She was a bit upset but she laughed it off and said it was probably the better call I dont know much anyways.")
 
 
 
@@ -678,12 +678,12 @@ Choice.create(prompt:"You go upstairs and the robot at the end ofthe hall coming
 #########robot cant open doors##############
 ###########can see ###############
 ############gas ############
-Choice.create(prompt:"You go upstairs and the robot is sitting in the hall staring at you. It begins emitting this gas when you feel yourself getting very sleepy...", choiceA: "You died", choiceB: "You died", turn:17 , path:"right", route: "a", robotpath:"d", from: "You decide to go get your sister because the two of you should definently stick together. You tell her that you decided to call your phone instead of take a picture. She was a bit upset but she laughed it off and said it was probably the better call I dont know much anyways.")
+Choice.create(prompt:"You go upstairs and the robot is sitting in the hall staring at you. It begins emitting this gas when you feel yourself getting very sleepy...", choiceA: "Captured", choiceB: "Captured", turn:17 , path:"right", route: "a", robotpath:"d", from: "You decide to go get your sister because the two of you should definently stick together. You tell her that you decided to call your phone instead of take a picture. She was a bit upset but she laughed it off and said it was probably the better call I dont know much anyways.")
 
 #########robot cant open doors##############
 ###########cant see ###############
 ############gas ############
-Choice.create(prompt:"You go upstairs and the robot at the end of the hall coming toward you. The red light on its antenna intensifying. It begins emitting this gas when you feel yourself getting very sleepy...", choiceA: "You died", choiceB: "You died", turn:17 , path:"right", route: "e", robotpath:"b", from: "You decide to go get your sister because the two of you should definently stick together. You tell her that you decided to call your phone instead of take a picture. She was a bit upset but she laughed it off and said it was probably the better call I dont know much anyways.")
+Choice.create(prompt:"You go upstairs and the robot at the end of the hall coming toward you. The red light on its antenna intensifying. It begins emitting this gas when you feel yourself getting very sleepy...", choiceA: "Captured", choiceB: "Captured", turn:17 , path:"right", route: "e", robotpath:"b", from: "You decide to go get your sister because the two of you should definently stick together. You tell her that you decided to call your phone instead of take a picture. She was a bit upset but she laughed it off and said it was probably the better call I dont know much anyways.")
 
 
 
@@ -882,9 +882,9 @@ Choice.create(prompt:"you wait for door to open. nothing happens and you dont he
 Choice.create(prompt:"you open the door and you see a bright light", choiceA: "Captured", choiceB: "Captured", turn:13 , path:"left", route: "a", from: "you wait for door to open. nothing happens and you dont hear anything from outside")
 
 ###############Robot has gas##############
-Choice.create(prompt:"You wait for the door to open when suddenly you get very sleepy", choiceA: "You died", choiceB: "You died", turn:13 , path:"right", route: "a", robotpath:"a", from: "you wait for door to open. nothing happens and you dont hear anything from outside")
+Choice.create(prompt:"You wait for the door to open when suddenly you get very sleepy", choiceA: "Captured", choiceB: "Captured", turn:13 , path:"right", route: "a", robotpath:"a", from: "you wait for door to open. nothing happens and you dont hear anything from outside")
 #################Robot has laser ############
-Choice.create(prompt:"You wait for the door to open when suddenly you get hit with this red beam..", choiceA: "You died", choiceB: "You died", turn:13 , path:"right", route: "a", robotpath:"b",from: "you wait for door to open. nothing happens and you dont hear anything from outside")
+Choice.create(prompt:"You wait for the door to open when suddenly you get hit with this red beam..", choiceA: "Captured", choiceB: "Captured", turn:13 , path:"right", route: "a", robotpath:"b",from: "you wait for door to open. nothing happens and you dont hear anything from outside")
 
 
 ############################Robot can open doors#############################
@@ -922,19 +922,19 @@ Choice.create(prompt:"You go outside ",  choiceA: "Captured", choiceB: "Captured
 
 ####################Heat sensors#############
 ###############gas#####################
-Choice.create(prompt:"You are pretty hungry and figure if youre going to go out you should atleast have a last meal. Unfortunately when you turn on the stove the robot comes running in and you can see this red light clowing from its antenna getting brighter and brighter. The robot emits some sort of gas and suddenly you get very sleepy...",  choiceA: "You died", choiceB: "You died", turn:10 , path:"right", route: "a", robotpath:"a", from: "Forget that you dont know whats hiding in the darkness. You quickly turn around and run out of the living room.")
+Choice.create(prompt:"You are pretty hungry and figure if youre going to go out you should atleast have a last meal. Unfortunately when you turn on the stove the robot comes running in and you can see this red light clowing from its antenna getting brighter and brighter. The robot emits some sort of gas and suddenly you get very sleepy...",  choiceA: "Captured", choiceB: "Captured", turn:10 , path:"right", route: "a", robotpath:"a", from: "Forget that you dont know whats hiding in the darkness. You quickly turn around and run out of the living room.")
 
 ####################Heat sensors#############
 ###############lasers #####################
-Choice.create(prompt:"You are pretty hungry and figure if youre going to go out you should atleast have a last meal. Unfortunately when you turn on the stove the robot comes running in and you can see this red light clowing from its antenna getting brighter and brighter. The robot starts shooting some sort of red beams when suddenly you are hit by one..",  choiceA: "You died", choiceB: "You died", turn:10 , path:"right", route: "a", robotpath:"b", from: "Forget that you dont know whats hiding in the darkness. You quickly turn around and run out of the living room.")
+Choice.create(prompt:"You are pretty hungry and figure if youre going to go out you should atleast have a last meal. Unfortunately when you turn on the stove the robot comes running in and you can see this red light clowing from its antenna getting brighter and brighter. The robot starts shooting some sort of red beams when suddenly you are hit by one..",  choiceA: "Captured", choiceB: "Captured", turn:10 , path:"right", route: "a", robotpath:"b", from: "Forget that you dont know whats hiding in the darkness. You quickly turn around and run out of the living room.")
 
 ####################No Heat sensors#############
 ###############gas#####################
-Choice.create(prompt:"You are pretty hungry and figure if youre going to go out you should atleast have a last meal. Unfortunately as your cooking you dont realize the robot coming in. The robot emits some sort of gas and suddenly you get very sleepy...",  choiceA: "You died", choiceB: "You died", turn:10 , path:"right", route: "a", robotpath:"c", from: "Forget that you dont know whats hiding in the darkness. You quickly turn around and run out of the living room.")
+Choice.create(prompt:"You are pretty hungry and figure if youre going to go out you should atleast have a last meal. Unfortunately as your cooking you dont realize the robot coming in. The robot emits some sort of gas and suddenly you get very sleepy...",  choiceA: "Captured", choiceB: "Captured", turn:10 , path:"right", route: "a", robotpath:"c", from: "Forget that you dont know whats hiding in the darkness. You quickly turn around and run out of the living room.")
 
 ####################No Heat sensors#############
 ###############lasers #####################
-Choice.create(prompt:"You are pretty hungry and figure if youre going to go out you should atleast have a last meal. Unfortunately as your cooking you dont realize the robot coming in. The robot starts shooting some sort of red beams when suddenly you are hit by one..",  choiceA: "You died", choiceB: "You died", turn:10 , path:"right", route: "a", robotpath:"d", from: "Forget that you dont know whats hiding in the darkness. You quickly turn around and run out of the living room.")
+Choice.create(prompt:"You are pretty hungry and figure if youre going to go out you should atleast have a last meal. Unfortunately as your cooking you dont realize the robot coming in. The robot starts shooting some sort of red beams when suddenly you are hit by one..",  choiceA: "Captured", choiceB: "Captured", turn:10 , path:"right", route: "a", robotpath:"d", from: "Forget that you dont know whats hiding in the darkness. You quickly turn around and run out of the living room.")
 
 
 
@@ -951,9 +951,9 @@ Choice.create(prompt:"You move out the way and the robot is continuously running
 #################################Run out of there ####################################
 ##################################Run Out ########################################
 ########################################GAS##########################################
-Choice.create(prompt:"You run out and the robot start to emit this strange gas and you begin to get very sleepy..", choiceA: "You Died", choiceB: "You died", turn:11 , path:"left", route: "a", robotpath:"a", from: "You move out the way and the robot is continuously running into the lamp. Strange.. You figure this is your chance to bolt so you begin to make your way to the door")
+Choice.create(prompt:"You run out and the robot start to emit this strange gas and you begin to get very sleepy..", choiceA: "You Died", choiceB: "Captured", turn:11 , path:"left", route: "a", robotpath:"a", from: "You move out the way and the robot is continuously running into the lamp. Strange.. You figure this is your chance to bolt so you begin to make your way to the door")
 ##########################################LASERS#########################################
-Choice.create(prompt:"You run out and the robot start to shoot these red beams when you get hit..", choiceA: "You Died", choiceB: "You died", turn:11 , path:"left", route: "a", robotpath:"b", from: "You move out the way and the robot is continuously running into the lamp. Strange.. You figure this is your chance to bolt so you begin to make your way to the door")
+Choice.create(prompt:"You run out and the robot start to shoot these red beams when you get hit..", choiceA: "You Died", choiceB: "Captured", turn:11 , path:"left", route: "a", robotpath:"b", from: "You move out the way and the robot is continuously running into the lamp. Strange.. You figure this is your chance to bolt so you begin to make your way to the door")
 
 #######################################JUMP IN CLOSET #######################################
 Choice.create(prompt:"You decide to jump in the closet to peak at the robot and see what it does.", choiceA: "Wait and watch", choiceB: "Throw something", turn:11 , path:"right", route: "a", from: "You move out the way and the robot is continuously running into the lamp. Strange.. You figure this is your chance to bolt so you begin to make your way to the door")
@@ -972,16 +972,16 @@ Choice.create(prompt:"You hear the doornob turn when...", choiceA: "Captured", c
 
 ###########################CANT OPEN DOORS ####################################
 ########################################GAS##########################################
-Choice.create(prompt:"You are sitting in the closet when suddenly you begin to get very sleepy...", choiceA: "You Died", choiceB: "You died", turn:14 , path:"right", route: "a", robotpath:"b", from: "You close the door and you see a bright light seeping in from the bottom.")
+Choice.create(prompt:"You are sitting in the closet when suddenly you begin to get very sleepy...", choiceA: "You Died", choiceB: "Captured", turn:14 , path:"right", route: "a", robotpath:"b", from: "You close the door and you see a bright light seeping in from the bottom.")
 ##########################################LASERS#########################################
-Choice.create(prompt:"You are sitting in the closet when suddenly you feel yourself get hit with a red beam", choiceA: "You Died", choiceB: "You died", turn:14 , path:"right", route: "a", robotpath:"c", from: "You close the door and you see a bright light seeping in from the bottom.")
+Choice.create(prompt:"You are sitting in the closet when suddenly you feel yourself get hit with a red beam", choiceA: "You Died", choiceB: "Captured", turn:14 , path:"right", route: "a", robotpath:"c", from: "You close the door and you see a bright light seeping in from the bottom.")
 
 
 ##################################Run Out ########################################
 ########################################GAS##########################################
-Choice.create(prompt:"You run out and the robot start to emit this strange gas and you begin to get very sleepy..", choiceA: "You Died", choiceB: "You died", turn:13 , path:"right", route: "a", robotpath:"a", from: "You wait and watch to see what the robot does but its just sitting there. until you se its red light getting brighter and its coming towards you!")
+Choice.create(prompt:"You run out and the robot start to emit this strange gas and you begin to get very sleepy..", choiceA: "You Died", choiceB: "Captured", turn:13 , path:"right", route: "a", robotpath:"a", from: "You wait and watch to see what the robot does but its just sitting there. until you se its red light getting brighter and its coming towards you!")
 ##########################################LASERS#########################################
-Choice.create(prompt:"You run out and the robot start to shoot these red beams when you get hit..", choiceA: "You Died", choiceB: "You died", turn:13 , path:"right", route: "a", robotpath:"b", from: "You wait and watch to see what the robot does but its just sitting there. until you se its red light getting brighter and its coming towards you!")
+Choice.create(prompt:"You run out and the robot start to shoot these red beams when you get hit..", choiceA: "You Died", choiceB: "Captured", turn:13 , path:"right", route: "a", robotpath:"b", from: "You wait and watch to see what the robot does but its just sitting there. until you se its red light getting brighter and its coming towards you!")
 
 
 #######################################THROW SOMETHING ##########################################
@@ -999,16 +999,16 @@ Choice.create(prompt:"You hear the doornob turn when...", choiceA: "Captured", c
 
 ###########################CANT OPEN DOORS ####################################
 ########################################GAS##########################################
-Choice.create(prompt:"You are sitting in the closet when suddenly you begin to get very sleepy...", choiceA: "You Died", choiceB: "You died", turn:14 , path:"left", route: "a", robotpath:"b", from: "You throw the ball at the robot and it immediately turns and starts coming toward the closet. You close the door and you see a bright light coming from underneath.")
+Choice.create(prompt:"You are sitting in the closet when suddenly you begin to get very sleepy...", choiceA: "You Died", choiceB: "Captured", turn:14 , path:"left", route: "a", robotpath:"b", from: "You throw the ball at the robot and it immediately turns and starts coming toward the closet. You close the door and you see a bright light coming from underneath.")
 ##########################################LASERS#########################################
-Choice.create(prompt:"You are sitting in the closet when suddenly you feel yourself get hit with a red beam", choiceA: "You Died", choiceB: "You died", turn:14 , path:"left", route: "a", robotpath:"c", from: "You throw the ball at the robot and it immediately turns and starts coming toward the closet. You close the door and you see a bright light coming from underneath.")
+Choice.create(prompt:"You are sitting in the closet when suddenly you feel yourself get hit with a red beam", choiceA: "You Died", choiceB: "Captured", turn:14 , path:"left", route: "a", robotpath:"c", from: "You throw the ball at the robot and it immediately turns and starts coming toward the closet. You close the door and you see a bright light coming from underneath.")
 
 
 ##################################Run Out ########################################
 ########################################GAS##########################################
-Choice.create(prompt:"You run out and the robot start to emit this strange gas and you begin to get very sleepy..", choiceA: "You Died", choiceB: "You died", turn:14 , path:"right", route: "a", robotpath:"a", from: "You wait and watch to see what the robot does but its just sitting there. until you se its red light getting brighter and its coming towards you!")
+Choice.create(prompt:"You run out and the robot start to emit this strange gas and you begin to get very sleepy..", choiceA: "You Died", choiceB: "Captured", turn:14 , path:"right", route: "a", robotpath:"a", from: "You wait and watch to see what the robot does but its just sitting there. until you se its red light getting brighter and its coming towards you!")
 ##########################################LASERS#########################################
-Choice.create(prompt:"You run out and the robot start to shoot these red beams when you get hit..", choiceA: "You Died", choiceB: "You died", turn:14 , path:"right", route: "a", robotpath:"b", from: "You wait and watch to see what the robot does but its just sitting there. until you se its red light getting brighter and its coming towards you!")
+Choice.create(prompt:"You run out and the robot start to shoot these red beams when you get hit..", choiceA: "You Died", choiceB: "Captured", turn:14 , path:"right", route: "a", robotpath:"b", from: "You wait and watch to see what the robot does but its just sitting there. until you se its red light getting brighter and its coming towards you!")
 
 ##########################################THROW AT STAIRS#########################################
 
@@ -1023,9 +1023,9 @@ Choice.create(prompt:"You hear the doornob turn when...", choiceA: "Captured", c
 
 ###########################CANT OPEN DOORS ####################################
 ########################################GAS##########################################
-Choice.create(prompt:"You are sitting in the closet when suddenly you begin to get very sleepy...", choiceA: "You Died", choiceB: "You died", turn:14 , path:"right", route: "a", robotpath:"b", from: "You throw the ball at the stairs to see if the robot will go and get it. Awesome your plan worked and the robot raced over to the ball. It gets to the ball and stops turning drectly towards the closet! Its starts coming closer and you shut the door... ")
+Choice.create(prompt:"You are sitting in the closet when suddenly you begin to get very sleepy...", choiceA: "You Died", choiceB: "Captured", turn:14 , path:"right", route: "a", robotpath:"b", from: "You throw the ball at the stairs to see if the robot will go and get it. Awesome your plan worked and the robot raced over to the ball. It gets to the ball and stops turning drectly towards the closet! Its starts coming closer and you shut the door... ")
 ##########################################LASERS#########################################
-Choice.create(prompt:"You are sitting in the closet when suddenly you feel yourself get hit with a red beam", choiceA: "You Died", choiceB: "You died", turn:14 , path:"right", route: "a", robotpath:"c", from: "You throw the ball at the stairs to see if the robot will go and get it. Awesome your plan worked and the robot raced over to the ball. It gets to the ball and stops turning drectly towards the closet! Its starts coming closer and you shut the door... ")
+Choice.create(prompt:"You are sitting in the closet when suddenly you feel yourself get hit with a red beam", choiceA: "You Died", choiceB: "Captured", turn:14 , path:"right", route: "a", robotpath:"c", from: "You throw the ball at the stairs to see if the robot will go and get it. Awesome your plan worked and the robot raced over to the ball. It gets to the ball and stops turning drectly towards the closet! Its starts coming closer and you shut the door... ")
 ##########################################NO SPEED#########################################
 
 Choice.create(prompt:"You throw the ball at the stairs to see if the robot will go and get it. Awesome your plan worked and the robot slowly went to the ball. It gets to the ball and stops turning drectly towards the closet! Its starts coming closer and you shut the door... ", choiceA: "open door", choiceB: "wait for door to open", turn:13 , path:"right", route: "a", robotpath: "b", from: "You look around and find a ball in the closet. You pick it up and..")
@@ -1040,9 +1040,9 @@ Choice.create(prompt:"You hear the doornob turn when...", choiceA: "Captured", c
 
 ###########################CANT OPEN DOORS ####################################
 ########################################GAS##########################################
-Choice.create(prompt:"You are sitting in the closet when suddenly you begin to get very sleepy...", choiceA: "You Died", choiceB: "You died", turn:14 , path:"right", route: "a", robotpath:"b", from: "You throw the ball at the stairs to see if the robot will go and get it. Awesome your plan worked and the robot slowly went to the ball. It gets to the ball and stops turning drectly towards the closet! Its starts coming closer and you shut the door... ")
+Choice.create(prompt:"You are sitting in the closet when suddenly you begin to get very sleepy...", choiceA: "You Died", choiceB: "Captured", turn:14 , path:"right", route: "a", robotpath:"b", from: "You throw the ball at the stairs to see if the robot will go and get it. Awesome your plan worked and the robot slowly went to the ball. It gets to the ball and stops turning drectly towards the closet! Its starts coming closer and you shut the door... ")
 ##########################################LASERS#########################################
-Choice.create(prompt:"You are sitting in the closet when suddenly you feel yourself get hit with a red beam", choiceA: "You Died", choiceB: "You died", turn:14 , path:"right", route: "a", robotpath:"c", from: "You throw the ball at the stairs to see if the robot will go and get it. Awesome your plan worked and the robot slowly went to the ball. It gets to the ball and stops turning drectly towards the closet! Its starts coming closer and you shut the door... ")
+Choice.create(prompt:"You are sitting in the closet when suddenly you feel yourself get hit with a red beam", choiceA: "You Died", choiceB: "Captured", turn:14 , path:"right", route: "a", robotpath:"c", from: "You throw the ball at the stairs to see if the robot will go and get it. Awesome your plan worked and the robot slowly went to the ball. It gets to the ball and stops turning drectly towards the closet! Its starts coming closer and you shut the door... ")
 
 
 
@@ -1472,16 +1472,16 @@ Choice.create(prompt:"You hear the doornob turn when...", choiceA: "Captured", c
 
 ###########################CANT OPEN DOORS ####################################
 ########################################GAS##########################################
-Choice.create(prompt:"You are sitting in the closet when suddenly you begin to get very sleepy...", choiceA: "You Died", choiceB: "You died", turn:12 , path:"left", route: "b", robotpath:"b", from: "You throw the ball at the robot and it immediately turns and starts coming toward the closet. You close the door and you see a bright light coming from underneath.")
+Choice.create(prompt:"You are sitting in the closet when suddenly you begin to get very sleepy...", choiceA: "You Died", choiceB: "Captured", turn:12 , path:"left", route: "b", robotpath:"b", from: "You throw the ball at the robot and it immediately turns and starts coming toward the closet. You close the door and you see a bright light coming from underneath.")
 ##########################################LASERS#########################################
-Choice.create(prompt:"You are sitting in the closet when suddenly you feel yourself get hit with a red beam", choiceA: "You Died", choiceB: "You died", turn:12 , path:"left", route: "b", robotpath:"c", from: "You throw the ball at the robot and it immediately turns and starts coming toward the closet. You close the door and you see a bright light coming from underneath.")
+Choice.create(prompt:"You are sitting in the closet when suddenly you feel yourself get hit with a red beam", choiceA: "You Died", choiceB: "Captured", turn:12 , path:"left", route: "b", robotpath:"c", from: "You throw the ball at the robot and it immediately turns and starts coming toward the closet. You close the door and you see a bright light coming from underneath.")
 
 
 ##################################Run Out ########################################
 ########################################GAS##########################################
-Choice.create(prompt:"You run out and the robot start to emit this strange gas and you begin to get very sleepy..", choiceA: "You Died", choiceB: "You died", turn:12 , path:"right", route: "b", robotpath:"a", from: "You throw the ball at the robot and it immediately turns and starts coming toward the closet. You close the door and you see a bright light coming from underneath.")
+Choice.create(prompt:"You run out and the robot start to emit this strange gas and you begin to get very sleepy..", choiceA: "You Died", choiceB: "Captured", turn:12 , path:"right", route: "b", robotpath:"a", from: "You throw the ball at the robot and it immediately turns and starts coming toward the closet. You close the door and you see a bright light coming from underneath.")
 ##########################################LASERS#########################################
-Choice.create(prompt:"You run out and the robot start to shoot these red beams when you get hit..", choiceA: "You Died", choiceB: "You died", turn:12 , path:"right", route: "b", robotpath:"b", from: "You throw the ball at the robot and it immediately turns and starts coming toward the closet. You close the door and you see a bright light coming from underneath.")
+Choice.create(prompt:"You run out and the robot start to shoot these red beams when you get hit..", choiceA: "You Died", choiceB: "Captured", turn:12 , path:"right", route: "b", robotpath:"b", from: "You throw the ball at the robot and it immediately turns and starts coming toward the closet. You close the door and you see a bright light coming from underneath.")
 
 ##########################################THROW AT STAIRS#########################################
 
@@ -1499,9 +1499,9 @@ Choice.create(prompt:"You hear the doornob turn when...", choiceA: "Captured", c
 
 ###########################CANT OPEN DOORS ####################################
 ########################################GAS##########################################
-Choice.create(prompt:"You are sitting in the closet when suddenly you begin to get very sleepy...", choiceA: "You Died", choiceB: "You died", turn:12 , path:"right", route: "b", robotpath:"b", from: "You throw the ball at the stairs to see if the robot will go and get it. Awesome your plan worked and the robot raced over to the ball. It gets to the ball and stops turning drectly towards the closet! Its starts coming closer and you shut the door... ")
+Choice.create(prompt:"You are sitting in the closet when suddenly you begin to get very sleepy...", choiceA: "You Died", choiceB: "Captured", turn:12 , path:"right", route: "b", robotpath:"b", from: "You throw the ball at the stairs to see if the robot will go and get it. Awesome your plan worked and the robot raced over to the ball. It gets to the ball and stops turning drectly towards the closet! Its starts coming closer and you shut the door... ")
 ##########################################LASERS#########################################
-Choice.create(prompt:"You are sitting in the closet when suddenly you feel yourself get hit with a red beam", choiceA: "You Died", choiceB: "You died", turn:12 , path:"right", route: "b", robotpath:"c", from: "You throw the ball at the stairs to see if the robot will go and get it. Awesome your plan worked and the robot raced over to the ball. It gets to the ball and stops turning drectly towards the closet! Its starts coming closer and you shut the door... ")
+Choice.create(prompt:"You are sitting in the closet when suddenly you feel yourself get hit with a red beam", choiceA: "You Died", choiceB: "Captured", turn:12 , path:"right", route: "b", robotpath:"c", from: "You throw the ball at the stairs to see if the robot will go and get it. Awesome your plan worked and the robot raced over to the ball. It gets to the ball and stops turning drectly towards the closet! Its starts coming closer and you shut the door... ")
 ##########################################NO SPEED#########################################
 
 
@@ -1523,9 +1523,9 @@ Choice.create(prompt:"You hear the doornob turn when...", choiceA: "Captured", c
 
 ###########################CANT OPEN DOORS ####################################
 ########################################GAS##########################################
-Choice.create(prompt:"You are sitting in the closet when suddenly you begin to get very sleepy...", choiceA: "You Died", choiceB: "You died", turn:12 , path:"right", route: "b", robotpath:"b", from: "You throw the ball at the stairs to see if the robot will go and get it. Awesome your plan worked and the robot slowly went to the ball. It gets to the ball and stops turning drectly towards the closet! Its starts coming closer and you shut the door... ")
+Choice.create(prompt:"You are sitting in the closet when suddenly you begin to get very sleepy...", choiceA: "You Died", choiceB: "Captured", turn:12 , path:"right", route: "b", robotpath:"b", from: "You throw the ball at the stairs to see if the robot will go and get it. Awesome your plan worked and the robot slowly went to the ball. It gets to the ball and stops turning drectly towards the closet! Its starts coming closer and you shut the door... ")
 ##########################################LASERS#########################################
-Choice.create(prompt:"You are sitting in the closet when suddenly you feel yourself get hit with a red beam", choiceA: "You Died", choiceB: "You died", turn:12 , path:"right", route: "b", robotpath:"c", from: "You throw the ball at the stairs to see if the robot will go and get it. Awesome your plan worked and the robot slowly went to the ball. It gets to the ball and stops turning drectly towards the closet! Its starts coming closer and you shut the door... ")
+Choice.create(prompt:"You are sitting in the closet when suddenly you feel yourself get hit with a red beam", choiceA: "You Died", choiceB: "Captured", turn:12 , path:"right", route: "b", robotpath:"c", from: "You throw the ball at the stairs to see if the robot will go and get it. Awesome your plan worked and the robot slowly went to the ball. It gets to the ball and stops turning drectly towards the closet! Its starts coming closer and you shut the door... ")
 
 ######################################################
 
