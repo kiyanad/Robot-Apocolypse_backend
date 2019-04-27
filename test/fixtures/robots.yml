@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  hear: false
+  stairs: false
+  doors: false
+  talk: false
+  arms: false
+  speed: false
+
+two:
+  hear: false
+  stairs: false
+  doors: false
+  talk: false
+  arms: false
+  speed: false
